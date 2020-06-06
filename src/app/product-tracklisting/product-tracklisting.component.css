@@ -1,0 +1,20 @@
+.tracklisting {
+  font-size: 16px;
+  padding-top: 10px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: block;
+  line-height: 30px;
+}
+
+button {
+  /* If no unit is supplied e.g. "line-height: 1.5" the
+   * distance between the lines is set as this number
+   * multiplied with the current font size. */
+  line-height: 1;
+}
