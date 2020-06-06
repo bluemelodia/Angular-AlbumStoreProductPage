@@ -12,7 +12,7 @@ describe('Album Interface', function() {
     } catch (e) {
       assert(false, "The Album interface hasn't been created yet.")
     }
-    
+
     let re = /export\s+interface\s+Album/
     assert(Array.isArray(file.match(re)) && file.match(re) != null, "There's an `album.ts` file, but it doesn't export an interface named `Album`.");
   });
